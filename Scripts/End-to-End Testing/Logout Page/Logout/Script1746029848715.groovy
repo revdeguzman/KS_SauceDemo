@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/div_Swag Labs'), 0, FailureHandling.STOP_ON_FAILURE)) {
-	WebUI.verifyTextPresent("Swag Labs", false)
-} else {
-	System.out.println("Element is not present.")
-}
+WebUI.click(findTestObject('Object Repository/Logout Page/button_Open Menu'))
+
+WebUI.click(findTestObject('Object Repository/Logout Page/a_Logout'))
+
+WebUI.closeBrowser()

@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/LogoutPage/button_Open Menu'))
+WebUI.setText(findTestObject('Object Repository/Login Page/Login_username'), 'standard_user')
 
-WebUI.click(findTestObject('Object Repository/LogoutPage/a_Logout'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Login_password'), 'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Login Page/Login_Button'))
+
+WebUI.delay(3)
+

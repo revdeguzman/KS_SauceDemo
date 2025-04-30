@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout</name>
+   <name>AddToCart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b6f9d263-bddf-4ef9-af42-094aea590f0a</testCaseGuid>
+   <testCaseGuid>c715f715-5c59-4ec0-9a71-9a14b6829cf4</testCaseGuid>
 </TestCaseEntity>

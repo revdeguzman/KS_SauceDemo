@@ -17,11 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/Login_username'), 'standard_user')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/Login_password'), 'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('Object Repository/LoginPage/Login_Button'))
-
-WebUI.delay(3)
-
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/div_Swag Labs'), 0, FailureHandling.STOP_ON_FAILURE)) {
+	WebUI.verifyTextPresent("Swag Labs", false)
+} else {
+	System.out.println("Element is not present.")
+}

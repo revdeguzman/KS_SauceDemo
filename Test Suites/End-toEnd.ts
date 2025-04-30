@@ -15,28 +15,35 @@
       <guid>52c4c618-8a3c-40f2-ad1f-bb11d6698629</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Page/WebCredentials</testCaseId>
+      <testCaseId>Test Cases/End-to-End Testing/Login Page/WebCredentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1b5bd303-fceb-4223-b7c9-7b83262e482a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Page/LoginPage</testCaseId>
+      <testCaseId>Test Cases/End-to-End Testing/Login Page/LoginPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0c11df52-a0a9-4f56-96ff-e60542de8f8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HomePage/HomePage</testCaseId>
+      <testCaseId>Test Cases/End-to-End Testing/Home Page/HomePage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>04b3084a-321a-48e2-a430-427a5afeda66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/End-to-End Testing/Add To Cart/AddToCart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>525e2b3d-29fe-4670-9338-aadf001b4aca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LogoutPage/Logout</testCaseId>
+      <testCaseId>Test Cases/End-to-End Testing/Logout Page/Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
