@@ -17,15 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Add To Cart/Sauce Labs Backpack'))
+WebUI.click(findTestObject('Object Repository/Check Out/a_1'))
 
-WebUI.click(findTestObject('Add To Cart/Sauce Labs Bike Light'))
+WebUI.click(findTestObject('Object Repository/Check Out/button_Checkout'))
 
-WebUI.click(findTestObject('Add To Cart/Sauce Labs Bolt T-Shirt'))
+WebUI.setText(findTestObject('Object Repository/Check Out/input_Checkout Your Information_firstName'), 'Test First Name')
 
-WebUI.click(findTestObject('Add To Cart/Sauce Labs Fleece Jacket'))
+WebUI.setText(findTestObject('Object Repository/Check Out/input_Checkout Your Information_lastName'), 'Test Last Name')
 
-WebUI.click(findTestObject('Add To Cart/Sauce Labs Onesie'))
+WebUI.setText(findTestObject('Object Repository/Check Out/input_Checkout Your Information_postalCode'), '52500')
 
-WebUI.click(findTestObject('Add To Cart/Test.allTheThings() T-Shirt (Red)'))
+WebUI.click(findTestObject('Object Repository/Check Out/input_Cancel_continue'))
+
+WebUI.click(findTestObject('Object Repository/Check Out/button_Finish'))
+
+WebUI.click(findTestObject('Object Repository/Check Out/h2_Thank you for your order'))
+
+WebUI.click(findTestObject('Object Repository/Check Out/button_Back Home'))
 
